@@ -1,7 +1,7 @@
 import { useFetcher } from 'react-router-dom';
-import { Contact } from '../routes/Contact';
+import { ContactType } from '../routes/Contact';
 
-export const Favorite = ({ contact }: { contact: Contact }) => {
+export const Favorite = ({ contact }: { contact: ContactType }) => {
   const fetcher = useFetcher();
 
   let { favorite } = contact;
